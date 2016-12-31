@@ -471,15 +471,15 @@ img {
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-a  {
-	color: #d59541;
+a {
+  color: #d59541;
 }
 
 .large-hero {
-	border-bottom: 10px solid #2f5572;
+  border-bottom: 10px solid #2f5572;
   position: relative;
 
 }
@@ -527,10 +527,10 @@ a  {
 }
 
 .large-hero__description {
-  color: #fff;
+  color: #FFF;
   font-size: 1.1rem;
   font-weight: 100;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
   max-width: 30rem;
   margin-left: auto;
   margin-right: auto;
@@ -545,10 +545,11 @@ a  {
 
 .btn {
   background-color: #2f5572;
-  color: #fff;
+  color: #FFF;
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
+
 }
 
 .btn--orange {
@@ -567,13 +568,13 @@ a  {
 }
 
 .wrapper {
-	overflow: hidden;
-	padding-left: 18px;
-	padding-right: 18px;
-	max-width: 1236px;
-	margin-left: auto;
-	margin-right: auto;
-	
+  overflow: hidden;
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 1236px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .wrapper--medium {
@@ -597,7 +598,7 @@ a  {
 }
 
 .page-section {
-	padding: 1.2rem 0;
+  padding: 1.2rem 0;
 }
 
 @media (min-width: 800px) {
@@ -609,13 +610,13 @@ a  {
 
 .page-section--blue {
   background-color: #2f5572;
-  color: #fff;
+  color: #FFF;
 }
 
 .headline {
-	font-size: 1.9rem;
-	font-weight: 300;
-	color: #2f5572;
+  font-size: 1.9rem;
+  font-weight: 300;
+  color: #2f5572;
 }
 
 @media (min-width: 530px) {
@@ -652,6 +653,10 @@ a  {
 
 .headline--light {
   font-weight: 100;
+}
+
+.headline strong {
+  font-weight: 400;
 }
 
 .headline--b-margin-small {
