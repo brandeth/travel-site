@@ -1100,7 +1100,7 @@ Instead edit gulp/templates/sprite */
   }
 
   .site-header--dark {
-    background-color: rgba(23, 51, 72 .85);
+    background-color: rgba(23, 51, 72, .85);
   }
 }
 
@@ -1323,6 +1323,10 @@ Instead edit gulp/templates/sprite */
     font-size: 1rem;
     padding: 12px 0;
     background-color: transparent;
+  }
+
+  .primary-nav a.is-current-link {
+    color: #fabb69;
   }
 }
 
