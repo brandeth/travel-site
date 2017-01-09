@@ -1147,7 +1147,7 @@ Instead edit gulp/templates/sprite */
   left: 0;
   width: 20px;
   height: 3px;
-  background-color: #fff;
+  background-color: #FFF;
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
   -webkit-transition: -webkit-transform .3s ease-out;
@@ -1162,7 +1162,7 @@ Instead edit gulp/templates/sprite */
   left: 0;
   width: 20px;
   height: 3px;
-  background-color: #fff;
+  background-color: #FFF;
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
   -webkit-transform-origin: 0 50%;
@@ -1176,7 +1176,7 @@ Instead edit gulp/templates/sprite */
   left: 0;
   width: 20px;
   height: 3px;
-  background-color: #fff;
+  background-color: #FFF;
   -webkit-transform-origin: 0 100%;
           transform-origin: 0 100%;
   -webkit-transition: -webkit-transform .3s ease-out;
@@ -1273,12 +1273,12 @@ Instead edit gulp/templates/sprite */
   padding-right: 7px;
 }
 
-@media atMedium {
+@media (min-width: 800px) {
 
   .primary-nav li {
+    padding-right: 20px;
     float: left;
     display: block;
-    padding-right: 20px;
   }
 }
 
@@ -1306,8 +1306,22 @@ Instead edit gulp/templates/sprite */
 @media (min-width: 800px) {
 
   .primary-nav a {
-    padding: 12px 0;
     font-size: 1rem;
+    padding: 12px 0;
     background-color: transparent;
   }
+}
+
+.reveal-item {
+	opacity: 0;
+	-webkit-transition: all 1.5s ease-out;
+	transition: all 1.5s ease-out;
+	-webkit-transform: scale(1.15);
+	        transform: scale(1.15);
+}
+
+.reveal-item--is-visible {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
